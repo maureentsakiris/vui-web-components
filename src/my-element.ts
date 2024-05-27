@@ -41,7 +41,7 @@ export class MyElement extends LitElement {
     return html`
       <h1>${this.sayHello(this.name)}!</h1>
       <button @click=${this._onClick} part="button">
-        Click Count: ${this.count}
+        Click Count is: ${this.count}
       </button>
       <slot></slot>
     `;
